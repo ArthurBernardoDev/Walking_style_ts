@@ -1,0 +1,23 @@
+.headerContainer {
+    background: var(--gray-blue);
+    height: 9.5rem;
+
+    display: flex;
+    align-items: center;
+    
+    padding: 2rem 4rem;
+
+    border-bottom: 1px solid var(--gray-white);
+
+    justify-content: space-between;
+    
+        
+    
+          a {
+            text-decoration: none;
+            color: var(--gray-white);
+            margin-left: 16px;
+            align-items: center;
+        }
+
+}
