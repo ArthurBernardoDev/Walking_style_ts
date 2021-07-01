@@ -1,0 +1,24 @@
+.tela1Container {
+
+
+    .Banner {
+        background-image: url(/banner.svg);
+        background-size: cover;
+        min-height: 21.87rem;
+        min-width: 100%;
+        color: var(--gray-white);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 5rem;
+        white-space: nowrap;
+    }
+
+    .tenis {
+
+        img {
+            margin: 7rem;
+        }
+    }
+
+}
