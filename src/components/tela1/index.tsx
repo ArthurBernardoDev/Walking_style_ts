@@ -1,4 +1,4 @@
-import styles from './tela1.module.scss';
+import styles from './styles.module.scss';
 
 export function Tela1() {
     return (
