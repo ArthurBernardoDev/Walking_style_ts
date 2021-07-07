@@ -1,11 +1,17 @@
-import styles from './styles.module.scss'
+import logoImg from '../../assets/images/logo.svg'
+import wppImg from '../../assets/images/wpp.svg'
+import instaImg from '../../assets/images/insta.svg'
+import faceImg from '../../assets/images/face.svg'
 
+
+import './style.scss'
 
 export function Header() {
-    return(
-        <header className={styles.headerContainer}>
+    return (
+        <div>
+         <header className="headerContainer">
             <div className="logo">
-            <img src="/logo.svg" alt="logo" />
+            <img src={logoImg} alt="logo" />
             </div>
 
             <div className="menu">
@@ -25,15 +31,17 @@ export function Header() {
                 Nike
             </a>
             <a href="#">
-                <img src="/wpp.svg" alt="wpp" />
+                <img src={wppImg} alt="wpp" />
             </a>
             <a href="#">
-                <img src="/insta.svg" alt="instagram" />
+                <img src={instaImg} alt="instagram" />
             </a>
             <a href="#">
-                <img src="/face.svg" alt="facebook" />
+                <img src={faceImg} alt="facebook" />
             </a>
             </div>
         </header>
-    );
+
+        </div>
+    )
 }
