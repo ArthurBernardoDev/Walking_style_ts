@@ -14,6 +14,18 @@
         white-space: nowrap;
     }
 
+    .img-tenis{
+        display: flex;
+        justify-content: space-around;
+        margin: 4rem 0 0 0;
+        flex-wrap: wrap;
+    }
+    .texto {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
     .tenis {
 
         img {
@@ -21,4 +33,211 @@
         }
     }
 
+// tela 2
+    .container-home2 {
+        background-color: #000000;
+    
+        .banner1 {
+            background:url("../assets/images/banner.jpeg") no-repeat;
+        background-size: cover;
+        min-height: 350px;
+        min-width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0 5rem;
+        white-space: nowrap;
+        }
+        
+        .texto {
+            display: flex;
+            flex-direction: column;
+            font-size: 1.3rem;
+            line-height: 1.5;
+        }
+
+        #banner1 {
+            font-size: 2rem;
+            font-weight: bold;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        
+        }
+        .perguntas {
+            display: flex;
+            color: #fff;
+            margin-top: 75px;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            flex-direction: column;
+        }
+        .pergunta1, .open {
+            border-bottom: 1px solid #e1e1e1;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem  0;
+        }
+        .respostas {
+            margin-top: 0.5rem;
+            overflow: hidden;
+            height: 0px;
+            transition: all 0.2s ease-in;
+        }
+
+    }
+
+    // tela 3
+
+    .container-home3 {
+        width: 100%;
+        margin: 0 auto;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    #show_feedback {
+        color: #fff;
+        height: 30rem;
+        overflow-y: auto;
+    
+    }
+    #show_feedback::-webkit-scrollbar {
+        display: none;
+    }
+    .container-home3 section:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .container-home3 section:nth-child(1) form {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        color: #fff;
+    }
+    @media(max-width: 1000px) {
+        .banner, .banner1 {
+            object-fit: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .texto {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+        }
+    }
+    .comentario {
+        width: 20rem;
+        padding: 0.8rem 1.5rem;
+        border-radius: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #000911;
+    
+    }
+    .comentario + .comentario {
+        margin-top: 0.8rem;
+    
+    }
+    .content_feedback {
+        display: flex;
+        margin: 0.5rem 0;
+    
+    }
+    .content_feedback > span:nth-child(1) {
+        margin-right: 1rem;
+        
+    }
+    #deletar {
+        padding: 0.3rem 1rem;
+        background-color: rgb(255, 37, 37);
+        cursor: pointer;
+        border-radius: 0.4rem;
+        transition: backgroud-color 0.2s;
+    }
+    #deletar:hover {
+        background-color: rgb(253, 0, 0);
+    }
+    .inputs {
+        padding: 1.5rem 2rem;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000911;
+        width: 25rem;
+    }
+    .inputs > form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs > form .spans {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .spans + .spans {
+        margin-top: 0.8rem;
+    
+    }
+    .spans > input {
+        height: 2rem;
+        border-radius: 0.4rem;
+        border: none;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+    }
+    .spans > textarea {
+        height: 4rem;
+        border-radius: 0.4rem;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+    }
+    .spans > span {
+        margin-bottom: 0.3rem;
+    }
+    form > button {
+        height: 2.5rem;
+        border-radius: 0.4rem;
+        border: none;
+        background-color: rgb(11, 64, 85);
+        color: white;
+        font-size: 1.2rem;
+        transition: backgroud-color 0.2s;
+        cursor: pointer;
+    }
+    form > button:hover {
+        background-color: rgb(5, 39, 53);
+    }
+    @media(max-width: 500px) {
+        .container-home3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .container-home3 section:nth-child(1) {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .container-home3 section:nth-child(2) {
+            width: 100%;
+        }
+        .container-home3 section:nth-child(2) #show_feedback {
+            width: 100%;
+        }
+        .container-home3 section:nth-child(2) #show_feedback  div{
+            width: 100%;
+        }
+    }
+    
 }

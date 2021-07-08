@@ -1,0 +1,22 @@
+{
+    "feedbacks": [
+        {
+            "name": "João da silva",
+            "description": "Muito bom o site! Atendimento ótimo!",
+            "feedback": "5",
+            "id": 1
+        },
+        {
+            "name": "Bernardo",
+            "description": "Tênis de alta qualidade!!",
+            "feedback": "5",
+            "id": 2
+        },
+        {
+            "name": "Gabriel",
+            "description": "Site muito bom!",
+            "feedback": "5",
+            "id": 3
+        }
+    ]
+}
