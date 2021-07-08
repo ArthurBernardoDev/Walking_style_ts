@@ -1,0 +1,16 @@
+.adidasContainer {
+
+    .tenis {
+
+        
+            display: flex;
+            background-color: var(--gray-blue);
+            border-radius: 1.5rem;
+            
+            div > span {
+                 display: flex;
+                 text-align: center;
+            }
+        
+    }
+}

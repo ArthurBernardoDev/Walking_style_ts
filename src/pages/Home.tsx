@@ -1,7 +1,6 @@
 import tenis1Img from '../assets/images/tenis1.svg'
 import tenis2Img from '../assets/images/tenis2.svg'
 import tenis3Img from '../assets/images/tenis3.svg'
-import bannerImg from '../assets/images/banner.svg'
 
 import '../styles/home.scss'
 
